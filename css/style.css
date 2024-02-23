@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.main{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 550px;
+    background-color: bisque;
+}
+.type{
+    position: relative;
+}
+.type::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: -5px;
+    height: 30px;
+    width: 2px;
+    background-color: gray;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
